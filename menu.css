@@ -1,0 +1,59 @@
+.menu-icon {
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 2;
+    color: #333;
+}
+
+/* Sidebar Menu */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Awalnya di luar layar */
+    width: 250px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .9);
+    color: #333;
+    padding-top: 60px;
+    transition: right 0.4s ease; /* Animasi masuk dan keluar */
+    z-index: 3;
+}
+
+/* Sidebar tampil saat ditambahkan class "active" */
+.sidebar.active {
+    right: 0;
+}
+
+/* Close Icon */
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Sidebar Links */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    color: #000000;
+}

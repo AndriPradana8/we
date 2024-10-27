@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/front\ cover.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+ul {
+  font-family: "Inter", serif;
+}
+
+button {
+  position: absolute;
+  padding: 2px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: white;
+  border: 2px solid;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: calc(50% + 250px);
+  transition: all 0.2s;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+button a {
+  text-decoration: none;
+  font-family: "Inter", serif;
+  color: black;
+}
+
+.container {
+  height: 100vh;
+  padding: 10px;
+  display: flex; /* Menggunakan Flexbox */
+  justify-content: center; /* Memusatkan secara horizontal */
+  align-items: center; /* Memusatkan secara vertikal */
+  height: 100vh; /* Mengatur tinggi container agar memenuhi seluruh layar */
+  flex-direction: column; /* Mengatur arah fleksibel ke kolom (jika diperlukan) */
+}
+
+.justified-text {
+  text-align: justify; /* Mengatur teks agar rata kanan-kiri */
+  margin: 20px; /* Menambahkan margin jika perlu */
+  line-height: 1.6; /* Menyesuaikan jarak antar baris */
+}
+
+.text-indent {
+  text-indent: 16px;
+  font-size: 17px;
+}
+
+.teks-awalmula {
+  margin-top: 140px;
+}
+
+.teks-id {
+  margin-top: 500px;
+}
+
+.tekswa {
+  margin-top: 1350px;
+}
+
+.teks-vidcall {
+  margin-top: 450px;
+}
+
+.teks-yourbd {
+  margin-top: 750px;
+}
+
+.teks-yourbd img {
+  width: 250px;
+}
